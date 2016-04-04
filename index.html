@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+		<script src="GameOfLife.js" type="text/javascript"></script>
+		<style src="style.css"></style>
+	</head>
+	<body>
+		<div>
+			<div class="conway-game"></div>
+		</div>
+		
+		<div class="controls">
+			<button id="playButton">Play</button>
+			<button id="pauseButton">Pause</button>
+			<button id="nextButton">Step</button>
+		
+			<button id="speedUpButton">Speed Up</button>
+			<button id="slowDownButton">Slow Down</button>
+		
+			<button id="fetchDetailsButton">Fetch Details</button>
+		</div>
+		
+		<div class="details">
+			Iterations: <span id="iterations"></span> &nbsp; Cells Created: <span id="cellsCreated"></span> &nbsp; Cells Destroyed: <span id="cellsDestroyed"></span> &nbsp;
+		</div>
+	</body>
+</html>
